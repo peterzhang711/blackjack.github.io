@@ -1,0 +1,52 @@
+.container{
+    border: 2px solid black;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.table {
+    display: flex;
+    background-color: darkgreen;
+    color: white;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.table-player img, .table-dealer img{
+    margin: 10px;
+}
+
+.table div {
+    height: 350px;
+    border: 1px solid black;
+    flex: 1;
+    padding: 10px;
+}
+
+.option {
+    background-color: darkgreen;
+    border: 2px solid black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns {
+    width: 30%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mark-table {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+table,th,td{
+    border: 1px solid black;
+}
